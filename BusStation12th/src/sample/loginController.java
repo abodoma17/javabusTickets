@@ -11,6 +11,7 @@ import java.io.DataInputStream;
 import java.io.DataOutput;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.net.ConnectException;
 import java.net.Socket;
 
 public class loginController {
@@ -57,7 +58,7 @@ public class loginController {
         }
         catch(IOException e)
         {
-            e.printStackTrace();
+            loginStatusLabel.setText("Server not active.");
         }
 
     }
