@@ -144,4 +144,4 @@ Main
 
 UML 
 
- ![uml](https://ibb.co/7Cb67sr)
+ ![uml](/Images/UML.png)
